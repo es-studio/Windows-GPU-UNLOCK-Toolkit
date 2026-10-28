@@ -1,0 +1,16 @@
+# Ignore large build artifacts, cloned repos, and local firmware dumps
+Windows-GPU-UNLOCK-src/
+gpu-unlock-firmware-source/
+windows_esp_guid.txt
+*.obj
+*.map
+*.BIN
+*.bin
+*.TXT
+*.txt
+!README.md
+!README_KR.md
+!*.ps1
+!*.sh
+# Internal repository maintenance scripts
+push_to_github.ps1
